@@ -25,6 +25,13 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "6.4.1"
+  app_core:
+    dependency: "direct main"
+    description:
+      path: "../app_core"
+      relative: true
+    source: path
+    version: "1.0.0+1"
   archive:
     dependency: transitive
     description:
@@ -361,6 +368,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  easy_refresh:
+    dependency: "direct main"
+    description:
+      name: easy_refresh
+      sha256: f36324c7f50291f85085bd64b39abe6b63909481bfa527f9c654d17ef172de30
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.3.4"
   event_bus:
     dependency: "direct main"
     description:
@@ -425,6 +440,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.9.3+1"
+  firebase_analytics:
+    dependency: "direct main"
+    description:
+      name: firebase_analytics
+      sha256: "5e92d510eacd66c354718fd9cc8f66ffdfa025640b645c4742297fb973770508"
+      url: "https://pub.dev"
+    source: hosted
+    version: "10.7.4"
+  firebase_analytics_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_analytics_platform_interface
+      sha256: "0a83107f585a630592e8b9113a7e0f2bd6fb72cdb331026ed45744f80686658d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.9.10"
+  firebase_analytics_web:
+    dependency: transitive
+    description:
+      name: firebase_analytics_web
+      sha256: "920da330f32a3958af929084aa114eaceb3d3a267ab784b814d1bdfb622a8a9a"
+      url: "https://pub.dev"
+    source: hosted
+    version: "0.5.5+22"
   firebase_auth:
     dependency: "direct main"
     description:
@@ -489,6 +528,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "3.6.26"
+  firebase_remote_config:
+    dependency: "direct main"
+    description:
+      name: firebase_remote_config
+      sha256: "60fc92273d1db338a6fad1839c42dedc4ad64f812043acad0cbb200702f5c9ce"
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.3.8"
+  firebase_remote_config_platform_interface:
+    dependency: transitive
+    description:
+      name: firebase_remote_config_platform_interface
+      sha256: be4829ea3f36b31752905e0fec189b98f1e070ce552d193b9a212434f97c1892
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.26"
+  firebase_remote_config_web:
+    dependency: transitive
+    description:
+      name: firebase_remote_config_web
+      sha256: d9cb08f8cf86f098e20574fb54a6d90596d945fb2c425eadfbb2a3aec51e3c8d
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.4.26"
   fixnum:
     dependency: transitive
     description:
@@ -574,6 +637,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "0.7.0"
+  flutter_svg:
+    dependency: "direct main"
+    description:
+      name: flutter_svg
+      sha256: "8f11725d2b075516efc364ec2cbcaacdf76e292725f02afa2657fbfb8af4a781"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.10"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -1363,6 +1434,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "4.3.3"
+  vector_graphics:
+    dependency: transitive
+    description:
+      name: vector_graphics
+      sha256: "32c3c684e02f9bc0afb0ae0aa653337a2fe022e8ab064bcd7ffda27a74e288e3"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.11+1"
+  vector_graphics_codec:
+    dependency: transitive
+    description:
+      name: vector_graphics_codec
+      sha256: c86987475f162fadff579e7320c7ddda04cd2fdeffbe1129227a85d9ac9e03da
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.11+1"
+  vector_graphics_compiler:
+    dependency: transitive
+    description:
+      name: vector_graphics_compiler
+      sha256: "12faff3f73b1741a36ca7e31b292ddeb629af819ca9efe9953b70bd63fc8cd81"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.11+1"
   vector_math:
     dependency: transitive
     description:

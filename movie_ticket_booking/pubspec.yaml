@@ -34,12 +34,19 @@ dependencies:
     path: ../network
   local_storage:
     path: ../local_storage
+  app_core:
+    path: ../app_core
+   #analytics:
+  firebase_analytics: 10.7.4
+  #force update:
+  firebase_remote_config: 4.3.8
   # firebase authentication
   firebase_auth: 4.17.9
   # firebase core
   firebase_core: 2.27.1
    #route
   go_router: 12.1.3
+  easy_refresh: 3.3.4
   #bloc
   bloc: 8.1.2
   flutter_bloc: 8.1.3
@@ -83,6 +90,7 @@ dependencies:
   permission_handler: 11.1.0
   #pdf reader
   flutter_pdfview: 1.3.2
+  flutter_svg: 2.0.10
   
 dev_dependencies:
   flutter_test:
@@ -112,7 +120,7 @@ flutter:
     # - assets/icons/about_us/
     # - assets/icons/account/
     # - assets/icons/product/
-    # - assets/icons/navigation/
+    - assets/icons/navigation/
     # - assets/icons/footer/
     - assets/color/
 
