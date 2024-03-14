@@ -30,12 +30,6 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  network:
-    path: ../network
-  local_storage:
-    path: ../local_storage
-  app_core:
-    path: ../app_core
    #analytics:
   firebase_analytics: 10.7.4
   #force update:
